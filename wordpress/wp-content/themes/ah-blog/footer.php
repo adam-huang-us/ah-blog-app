@@ -13,9 +13,10 @@
               <h3 class="headline headline--small">Explore</h3>
               <nav class="nav-list">
                 <ul>
-                  <li><a href="<?php echo site_url('/index.php/about-me'); ?>">About Me</a></li>
+                  <li><a href="<?php echo site_url('/about-me'); ?>">About Me</a></li>
+                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Projects</a></li>
-                  <li><a href="#">Blog</a></li>
+                 
                   <!-- <li><a href="#">Campuses</a></li> -->
                 </ul>
               </nav>
