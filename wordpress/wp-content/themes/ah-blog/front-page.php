@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
   <div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>);"></div>
+  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/screenshot.png') ?>);"></div>
     <div class="page-banner__content container t-center c-white">
       <h1 class="headline headline--large">Welcome!</h1>
-      <h2 class="headline headline--medium">o Become a Better Developer Together!</h2>
+      <h2 class="headline headline--medium">Become a Better Developer Together!</h2>
       <!-- <h3 class="headline headline--small">To Be a Better Developer!</h3> -->
       <!-- <a href="#" class="btn btn--large btn--blue">Find Your Major</a> -->
     </div>

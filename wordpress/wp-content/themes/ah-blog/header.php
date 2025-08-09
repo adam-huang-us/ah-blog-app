@@ -18,7 +18,7 @@
             <ul>
               <li><a href="<?php echo site_url('/index.php/about-me'); ?>">About me</a></li>
               <li><a href="<?php echo site_url('/index.php/blog'); ?>">Blog</a></li>
-              <li><a href="<?php echo site_url('/index.php/projects'); ?>">Projects</a></li>
+              <!-- <li><a href="<?php echo site_url('/index.php/projects'); ?>">Projects</a></li> -->
               <!-- <li><a href="#">Events</a></li>
               <li><a href="#">Campuses</a></li> -->
             </ul>
