@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
   <head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
   </head>
   <body>
     <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
-          <a href="<?php echo site_url('/index.php/about-me'); ?>"><strong>Adam</strong> Huang</a>
+          <a href="<?php echo site_url(); ?>"><strong>Adam</strong> Huang</a>
         </h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
@@ -15,8 +17,8 @@
           <nav class="main-navigation">
             <ul>
               <li><a href="<?php echo site_url('/index.php/about-me'); ?>">About me</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Projects</a></li>
+              <li><a href="<?php echo site_url('/index.php/blog'); ?>">Blog</a></li>
+              <li><a href="<?php echo site_url('/index.php/projects'); ?>">Projects</a></li>
               <!-- <li><a href="#">Events</a></li>
               <li><a href="#">Campuses</a></li> -->
             </ul>

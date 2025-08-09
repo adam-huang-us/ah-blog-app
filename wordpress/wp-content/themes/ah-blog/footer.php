@@ -3,7 +3,7 @@
         <div class="group">
           <div class="site-footer__col-one">
             <h1 class="school-logo-text school-logo-text--alt-color">
-              <a href="<?php echo site_url('/index.php/about-me'); ?>"><strong>Adam</strong> Huang</a>
+              <a href="<?php echo site_url(''); ?>"><strong>Adam</strong> Huang</a>
             </h1>
             <p><a class="site-footer__link" href="#">adam.huang2022@gmail.com</a></p>
           </div>
